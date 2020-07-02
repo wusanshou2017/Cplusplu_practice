@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add2c43b-a8ea-4f83-9ebf-4670eb094637" name="Default Changelist" comment="" />
+    <list default="true" id="add2c43b-a8ea-4f83-9ebf-4670eb094637" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../static_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../static_/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

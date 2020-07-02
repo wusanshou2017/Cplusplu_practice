@@ -18,8 +18,13 @@ public:
     {
        i++; // Do nothing
     };
+//    静态成员函数
+    static void demo(){
+        std::cout<<"static func"<<endl;
+    }
 };
 
+// 静态成员变量 类外初始化
 int Apple::i = 1;
 
 
@@ -30,5 +35,6 @@ int main() {
     Apple apple;
     cout << apple.i<<endl;
     std::cout << "Hello, World!" << std::endl;
+    Apple::demo();
     return 0;
 }
