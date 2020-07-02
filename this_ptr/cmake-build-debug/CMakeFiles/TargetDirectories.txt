@@ -1,0 +1,3 @@
+E:/Mygithub/Cplusplu_practice/this_ptr/cmake-build-debug/CMakeFiles/this_ptr.dir
+E:/Mygithub/Cplusplu_practice/this_ptr/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Mygithub/Cplusplu_practice/this_ptr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
