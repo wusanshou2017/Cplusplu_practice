@@ -35,10 +35,30 @@ private:
     SexType sex;
 };
 
+class Stu{
+public:
+    Stu(string name, int age)
+    {
+        this->name= name;
+        this->age=age;
+    }
+    Stu * gp(){
+        this->age++;
+        cout<<age<<endl;
+        return this;    // *this
+    }
+
+private:
+    string name;
+    int age;
+};
 
 int main(){
     Person p("zhangsan",20,Person::BOY);
     cout<<p.get_age()<<endl;
     cout<<p.add_age(10).get_age()<<endl;
+    Stu s ("wu",20);
+    s.gp()->gp()->gp();
+
     return 0;
 }
