@@ -19,7 +19,7 @@ public:
     int get_age() const{
         return this->age;
     }
-
+    // 不加引用 Person add_age 返回的是 当前对象的克隆
     Person& add_age(int a){
         age+=a;
         return *this;
@@ -42,10 +42,10 @@ public:
         this->name= name;
         this->age=age;
     }
-    Stu * gp(){
+    Stu  gp(){
         this->age++;
         cout<<age<<endl;
-        return this;    // *this
+        return *this;    // *this
     }
 
 private:
@@ -58,7 +58,7 @@ int main(){
     cout<<p.get_age()<<endl;
     cout<<p.add_age(10).get_age()<<endl;
     Stu s ("wu",20);
-    s.gp()->gp()->gp();
+    s.gp().gp().gp();
 
     return 0;
 }
